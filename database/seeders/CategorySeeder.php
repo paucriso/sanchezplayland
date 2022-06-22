@@ -16,10 +16,6 @@ class CategorySeeder extends Seeder
     public function run()
     {
         DB::table('categories')->insert([
-            'name' => 'acuáticos'
-        ]);
-
-        DB::table('categories')->insert([
             'name' => 'niños'
         ]);
 
@@ -29,6 +25,10 @@ class CategorySeeder extends Seeder
 
         DB::table('categories')->insert([
             'name' => 'toros mecánicos'
+        ]);
+
+        DB::table('categories')->insert([
+            'name' => 'variedad'
         ]);
     }
 }

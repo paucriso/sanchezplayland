@@ -98,6 +98,18 @@ a {
   color: var(--color-texto);
 }
 
+.seccion h2 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5rem;
+  color: var(--color-titulo);
+}
+
+.seccion p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: var(--color-texto);
+}
+
 .inflables {
   max-width: 500px;
 }
@@ -172,4 +184,28 @@ a {
   margin-top: -188px;
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+
+.subtitulo {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.2rem;
+  color: var(--color-titulo);
+}
+
+.informacion-button {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-titulo);
+}
+
+.informacion-button:hover {
+  background-color: var(--color-blue);
+}
+
+.filter-button {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-green);
+}
+
+.filter-button:hover {
+  background-color: var(--color-blue);
 }

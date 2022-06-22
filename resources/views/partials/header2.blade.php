@@ -42,7 +42,7 @@
         <div class="middle-nav">
           <ul class="navbar flex justify-between px-12 text-xl">
             <li><a href="/" class="active">Inicio</a></li>
-            <li><a href="#">Brincolines</a></li>
+            <li><a href="/brincolines">Brincolines</a></li>
             <li><a href="/nosotros">Nosotros</a></li>
             <li><a href="/contacto">Contacto</a></li>
           </ul>
