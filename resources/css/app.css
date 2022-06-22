@@ -1,0 +1,175 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;500&display=swap');
+
+:root {
+  --color-red: #e10613;
+  --color-blue: #1c6eb7;
+  --color-green: #39a834; 
+  --color-titulo: #EF4343;
+  --color-texto: #515151;
+  --color-texto-azul: #00AFE1;
+}
+
+.strong {
+  font-weight: bold;
+  color: #333;
+}
+
+ul {
+  background-image: url('/images/nubes_m_570x26.png');
+  background-repeat: no-repeat;
+  list-style-type: none;
+  color: var(--color-blue)
+}
+
+ul a:hover {
+  color: var(--color-green);
+}
+
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.active {
+  color: var(--color-red) !important;
+}
+
+.header {
+  font-family: 'Fredoka One', cursive;
+  background-image: url('/images/cielo_bg.png');
+  background-repeat: no-repeat;
+  min-height: 362px;
+}
+
+.header-2 {
+  font-family: 'Fredoka One', cursive;
+  background-image: url('/images/cielo_bg_sin_nubes.png');
+  background-repeat: no-repeat;
+  min-height: 362px;
+}
+
+.navbar {
+  width: 570px;
+  height: 26px;
+}
+
+
+
+.logo img {
+  max-width: 220px;
+}
+
+/* content */
+
+.section {
+  padding-block: 25px;
+}
+
+.first-content {
+  background-color: #FDFFA1;
+}
+
+.first-content h2 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5rem;
+  color: var(--color-titulo);
+}
+
+.first-content p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: var(--color-texto);
+}
+
+.nosotros h2 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5rem;
+  color: var(--color-titulo);
+}
+
+.nosotros p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: var(--color-texto);
+}
+
+.inflables {
+  max-width: 500px;
+}
+
+.second-content {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5rem;
+  color: var(--color-titulo);
+  text-align: center;
+}
+
+.second-content h3 {
+  font-size: 1.125rem;
+  color: var(--color-titulo);
+}
+
+.divider {
+  width: 50%;
+  height: 1px;
+  background-color:#ededed;
+}
+
+.last-section {
+  background-image: url('/images/pasto_footer.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  padding-bottom: 110px;
+}
+
+.last-section h2 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5rem;
+  color: var(--color-texto-azul);
+  text-align: center;
+}
+
+.telefono-email {
+  font-family: 'Fredoka One', cursive;
+  color: var(--color-titulo);
+  font-size: 1.5rem;
+}
+
+.boton-reservar {
+  background-color: var(--color-titulo);
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.boton-reservar:hover {
+  background-color: var(--color-texto-azul);
+  color:white;
+}
+
+.footer {
+  font-family: 'Roboto', sans-serif;
+  font-size: .8rem;
+  background-color: #00602c;
+  color: #e2e2e2;
+}
+
+.footer a:hover {
+  color: yellow;
+}
+
+.top-divisor {
+  background-image: url('/images/pasto-alone_02.png');
+  height: 188px;
+  margin-top: -188px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}

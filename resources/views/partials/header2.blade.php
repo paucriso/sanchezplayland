@@ -1,4 +1,4 @@
-<div class="header">
+<div class="header-2">
   <div class="container mx-auto">
 
     <div class="grid grid-cols-1 lg:grid-cols-3">

@@ -10,7 +10,7 @@
   @livewireStyles
 </head>
 <body>
-  @include('partials.header')
+  @include('partials.header2')
   @yield('content')
   @include('partials.footer')
   @livewireScripts  
