@@ -14,7 +14,7 @@
             Voluptate mollitia tenetur earum dolore, eveniet consequatur.</p>
             <img class="inflables mt-12" src="/images/inflables.png" alt="">
         </div>
-        <div class="col">
+        <div class="col flex justify-center">
           <img src="/images/happy_kids.png" alt="">
         </div>
       </div>
@@ -50,7 +50,7 @@
   <div class="section last-section">
     <div class="lg:px-28 text-center">
       <h2 class="mb-12 titulo-alt">¡Solicita tus brincolines!</h2>
-      <div class="telefono-email flex justify-around">
+      <div class="telefono-email flex justify-around mb-16">
         <div class="telefono flex items-center">
           <img src="/images/telefono.png" alt="">
           <span>+1 (347) 208-1275</span>
@@ -60,7 +60,7 @@
           <span class="ml-1">info@sanchezplayland.com</span>
         </div>
       </div>
-      <button class="boton-reservar mt-16">Realizar reserva</button>
+      <a href="/contacto" class="boton-reservar">Realizar reserva</a>
     </div>
   </div>
 @endsection

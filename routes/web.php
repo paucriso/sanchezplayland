@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FormularioController;
 use App\Http\Controllers\InflableController;
 use Illuminate\Support\Facades\Route;
 
@@ -24,3 +25,5 @@ Route::get('/nosotros', function () {
 
 Route::get('/brincolines', [InflableController::class, 'index'])->name('brincolines.index');
 Route::get('/brincolines/{brincolin}', [InflableController::class, 'show'])->name('brincolines.show');
+Route::get('/contacto', [FormularioController::class, 'index'])->name('contactanos');
+Route::post('/contacto', [FormularioController::class, 'store'])->name('contacto');
