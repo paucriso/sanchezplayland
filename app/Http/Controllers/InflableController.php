@@ -12,9 +12,10 @@ class InflableController extends Controller
         return view('brincolines.index');
     }
 
-    public function show($id)
+    public function show($slug)
     {
-        $brincolin = Inflable::find($id);
+        $brincolin = Inflable::where('slug', '=', $slug)->firstOrFail();
+
         return view('brincolines.show', compact('brincolin'));
     }
 }

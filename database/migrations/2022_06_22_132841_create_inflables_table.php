@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('inflables', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('slug')->unique();
             $table->text('description');
             $table->string('image')->default('images/brincolines/no-photo.jpg');
             $table->unsignedBigInteger('category_id');

@@ -41,10 +41,10 @@
         </div>
         <div class="middle-nav">
           <ul class="navbar flex justify-between px-12 text-xl">
-            <li><a href="/" class="active">Inicio</a></li>
-            <li><a href="/brincolines">Brincolines</a></li>
-            <li><a href="/nosotros">Nosotros</a></li>
-            <li><a href="/contacto">Contacto</a></li>
+            <li><a href="/" class="{{(request()->is('/')) ? 'active' : ''}}">Inicio</a></li>
+            <li><a href="/brincolines" class="{{(request()->is('brincolines*')) ? 'active' : ''}}">Brincolines</a></li>
+            <li><a href="/nosotros" class="{{(request()->is('nosotros')) ? 'active' : ''}}">Nosotros</a></li>
+            <li><a href="/contacto" class="{{(request()->is('contacto')) ? 'active' : ''}}">Contacto</a></li>
           </ul>
         </div>
         <div class="bottom-nav">

@@ -9,30 +9,36 @@ use App\Models\Category;
 class ShowInflables extends Component
 {
     public $filtro = 'todos';
+    public $active_button = '';
 
     public function todos()
     {
         $this->filtro = 'todos';
+        $this->active_button = 'todos';
     }
 
     public function niños()
     {
         $this->filtro = 'niños';
+        $this->active_button = 'niños';
     }
 
     public function niñas()
     {
         $this->filtro = 'niñas';
+        $this->active_button = 'niñas';
     }
 
     public function toros()
     {
         $this->filtro = 'toros';
+        $this->active_button = 'toros';
     }
 
     public function variedad()
     {
         $this->filtro = 'variedad';
+        $this->active_button = 'variedad';
     }
 
     public function render()

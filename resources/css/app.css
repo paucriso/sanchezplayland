@@ -39,6 +39,10 @@ a {
   color: var(--color-red) !important;
 }
 
+.active-button {
+  background-color: var(--color-titulo) !important;
+}
+
 .header {
   font-family: 'Fredoka One', cursive;
   background-image: url('/images/cielo_bg.png');
