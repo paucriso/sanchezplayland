@@ -80,7 +80,6 @@ a {
 
 .first-content h2 {
   font-family: 'Fredoka One', cursive;
-  font-size: 2.5rem;
   color: var(--color-titulo);
 }
 
@@ -92,7 +91,6 @@ a {
 
 .nosotros h2 {
   font-family: 'Fredoka One', cursive;
-  font-size: 2.5rem;
   color: var(--color-titulo);
 }
 
@@ -104,7 +102,6 @@ a {
 
 .seccion h2 {
   font-family: 'Fredoka One', cursive;
-  font-size: 2.5rem;
   color: var(--color-titulo);
 }
 
@@ -112,10 +109,6 @@ a {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   color: var(--color-texto);
-}
-
-.inflables {
-  max-width: 500px;
 }
 
 .second-content {
@@ -146,7 +139,6 @@ a {
 
 .last-section h2 {
   font-family: 'Fredoka One', cursive;
-  font-size: 2.5rem;
   color: var(--color-texto-azul);
   text-align: center;
 }
@@ -213,3 +205,4 @@ a {
 .filter-button:hover {
   background-color: var(--color-blue);
 }
+

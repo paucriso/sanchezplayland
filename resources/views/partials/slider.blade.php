@@ -65,10 +65,9 @@
   };</script>
 @endsection
 
-<!-- START Slider 1 REVOLUTION SLIDER 6.5.24 -->
-<p class="rs-p-wp-fix"></p>
+<!-- START Slider 1 REVOLUTION SLIDER 6.5.24 --><p class="rs-p-wp-fix"></p>
 <rs-module-wrap id="rev_slider_1_1_wrapper" data-alias="slider-1" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;background-image:url(https://sanchezplayland.com/wp-content/uploads/2022/06/slider_bg.png);background-repeat:no-repeat;background-size:cover;background-position:center center;">
-  <rs-module id="rev_slider_1_1" data-version="6.5.24">
+  <rs-module id="rev_slider_1_1" style="" data-version="6.5.24">
     <rs-slides>
       <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide 1" data-in="o:0;" data-out="a:false;">
         <img src="images/transparent.png" alt="" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-no-retina>
@@ -77,9 +76,9 @@
           id="slider-1-slide-1-layer-4" 
           data-type="image"
           data-rsp_ch="on"
-          data-xy="x:64px;y:20px;"
-          data-text="w:normal;"
-          data-dim="w:541px;h:357px;"
+          data-xy="xo:64px,64px,64px,53px;yo:20px,20px,20px,10px;"
+          data-text="w:normal;s:20,20,20,7;l:0,0,0,9;"
+          data-dim="w:541px,541px,541px,352px;h:357px,357px,357px,232px;"
           data-frame_0="x:left;"
           data-frame_1="sp:1000;"
           data-frame_999="o:0;st:w;"
@@ -91,11 +90,11 @@
           id="slider-1-slide-1-layer-5" 
           data-type="text"
           data-color="#fff"
-          data-tsh="c:rgba(0,0,0,0.45);h:10px;v:5px;b:15px;"
+          data-tsh="c:rgba(0,0,0,0.45);h:10px,10px,10px,3px;v:5px,5px,5px,1px;b:15px,15px,15px,5px;"
           data-rsp_ch="on"
-          data-xy="x:702px;y:163px;"
-          data-text="w:normal;s:40;l:50;a:center;"
-          data-dim="minh:0px;"
+          data-xy="xo:702px,702px,702px,114px;yo:163px,163px,163px,277px;"
+          data-text="w:normal;s:40,40,40,25;l:50,50,50,25;a:center;"
+          data-dim="minh:0px,0px,0px,none;"
           data-frame_0="x:right;"
           data-frame_0_words="d:5;"
           data-frame_1="sp:1000;"
@@ -113,9 +112,9 @@ adipiscing elit.
           id="slider-1-slide-2-layer-4" 
           data-type="image"
           data-rsp_ch="on"
-          data-xy="x:664px;y:-7px;"
-          data-text="w:normal;"
-          data-dim="w:419px;h:383px;"
+          data-xy="xo:664px,664px,664px,99px;yo:-7px,-7px,-7px,-11px;"
+          data-text="w:normal;s:20,20,20,7;l:0,0,0,9;"
+          data-dim="w:419px,419px,419px,287px;h:383px,383px,383px,262px;"
           data-frame_0="x:right;"
           data-frame_1="sp:1000;"
           data-frame_999="o:0;st:w;"
@@ -127,11 +126,11 @@ adipiscing elit.
           id="slider-1-slide-2-layer-5" 
           data-type="text"
           data-color="#fff"
-          data-tsh="c:rgba(0,0,0,0.45);h:10px;v:5px;b:15px;"
+          data-tsh="c:rgba(0,0,0,0.45);h:10px,10px,10px,3px;v:5px,5px,5px,1px;b:15px,15px,15px,5px;"
           data-rsp_ch="on"
-          data-xy="x:163px;y:183px;"
-          data-text="w:normal;s:40;l:50;a:center;"
-          data-dim="minh:0px;"
+          data-xy="xo:163px,163px,163px,114px;yo:183px,183px,183px,286px;"
+          data-text="w:normal;s:40,40,40,25;l:50,50,50,25;a:center;"
+          data-dim="minh:0px,0px,0px,none;"
           data-frame_0="x:left;"
           data-frame_1="sp:1000;"
           data-frame_999="o:0;st:w;"
@@ -148,9 +147,9 @@ adipiscing elit.
           id="slider-1-slide-3-layer-4" 
           data-type="image"
           data-rsp_ch="on"
-          data-xy="x:511px;y:4px;"
-          data-text="w:normal;"
-          data-dim="w:311px;h:305px;"
+          data-xy="xo:511px,511px,511px,171px;yo:4px,4px,4px,7px;"
+          data-text="w:normal;s:20,20,20,7;l:0,0,0,9;"
+          data-dim="w:311px,311px,311px,154px;h:305px,305px,305px,151px;"
           data-frame_0="y:bottom;"
           data-frame_1="sp:1000;"
           data-frame_999="o:0;st:w;"
@@ -162,11 +161,11 @@ adipiscing elit.
           id="slider-1-slide-3-layer-5" 
           data-type="text"
           data-color="#fff"
-          data-tsh="c:rgba(0,0,0,0.45);h:10px;v:5px;b:15px;"
+          data-tsh="c:rgba(0,0,0,0.45);h:10px,10px,10px,3px;v:5px,5px,5px,1px;b:15px,15px,15px,5px;"
           data-rsp_ch="on"
-          data-xy="x:226px;y:325px;"
-          data-text="w:normal;s:40;l:50;a:center;"
-          data-dim="w:814px;minh:0px;"
+          data-xy="xo:226px,226px,226px,94px;yo:325px,325px,325px,336px;"
+          data-text="w:normal;s:40,40,40,25;l:50,50,50,25;a:center;"
+          data-dim="w:814px,814px,814px,314px;h:auto,auto,auto,45px;minh:0px,0px,0px,none;"
           data-frame_999="o:0;st:w;"
           style="z-index:11;font-family:'Fredoka One';"
         >Lorem ipsum dolor sit amet consectetur. 
@@ -176,9 +175,9 @@ adipiscing elit.
           id="slider-1-slide-3-layer-6" 
           data-type="image"
           data-rsp_ch="on"
-          data-xy="x:900px;y:34px;"
-          data-text="w:normal;"
-          data-dim="w:311px;h:273px;"
+          data-xy="xo:900px,900px,900px,270px;yo:34px,34px,34px,171px;"
+          data-text="w:normal;s:20,20,20,7;l:0,0,0,9;"
+          data-dim="w:311px,311px,311px,173px;h:273px,273px,273px,152px;"
           data-frame_0="x:right;"
           data-frame_1="sp:1000;"
           data-frame_999="o:0;st:w;"
@@ -190,9 +189,9 @@ adipiscing elit.
           id="slider-1-slide-3-layer-7" 
           data-type="image"
           data-rsp_ch="on"
-          data-xy="x:112px;y:27px;"
-          data-text="w:normal;"
-          data-dim="w:311px;h:284px;"
+          data-xy="xo:112px,112px,112px,36px;yo:27px,27px,27px,174px;"
+          data-text="w:normal;s:20,20,20,7;l:0,0,0,9;"
+          data-dim="w:311px,311px,311px,166px;h:284px,284px,284px,152px;"
           data-frame_0="x:left;"
           data-frame_1="sp:1000;"
           data-frame_999="o:0;st:w;"
@@ -225,13 +224,13 @@ if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_s
         DPR:"dpr",
         sliderLayout:"fullwidth",
         duration:"4000ms",
-        visibilityLevels:"1240,1024,778,480",
-        gridwidth:1240,
-        gridheight:400,
+        visibilityLevels:"1240,1240,1240,480",
+        gridwidth:"1240,1240,1240,480",
+        gridheight:"400,400,400,400",
         perspective:600,
         perspectiveType:"global",
-        editorheight:"400,768,960,720",
-        responsiveLevels:"1240,1024,778,480",
+        editorheight:"400,768,960,400",
+        responsiveLevels:"1240,1240,1240,480",
         progressBar: {
           size:5,
           x:0,

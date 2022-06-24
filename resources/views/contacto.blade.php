@@ -6,12 +6,12 @@
 
 </div>
 
-<div class="section bg-white nosotros">
+<div class="section bg-white nosotros px-4">
   <div class="lg:px-28">
-    <div class="grid grid-cols-2 gap-8">
+    <div class="grid lg:grid-cols-2 gap-8">
       <div class="col">
-        <h2>Contáctanos</h2>
-        <p>Envíanos un mensaje y cuéntanos que brincolines te interesan.</p>
+        <h2 class="text-2xl lg:text-3xl text-center lg:text-left">Contáctanos</h2>
+        <p class="text-center lg:text-left">Envíanos un mensaje y cuéntanos que brincolines te interesan.</p>
         <form action="{{route('contacto')}}" method="POST" class="mt-4">
           @csrf
           <div class="mb-4">
@@ -47,9 +47,9 @@
         </form>
       </div>
       <div class="col mx-auto">
-        <h5 class="subtitulo mt-4">Medios de contacto</h5>
+        <h5 class="subtitulo mt-4 text-center lg:text-left">Medios de contacto</h5>
         <div class="telefono-email mt-4">
-          <div class="telefono flex items-center subtitulo">
+          <div class="telefono flex items-center subtitulo justify-center lg:justify-start">
             <img src="/images/telefono.png" alt="" class="w-10">
             <span>+1 (347) 208-1275</span>
           </div>

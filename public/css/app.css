@@ -559,6 +559,14 @@ video {
 .relative {
   position: relative;
 }
+.inset-x-1\/2 {
+  left: 50%;
+  right: 50%;
+}
+.inset-x-auto {
+  left: auto;
+  right: auto;
+}
 .bottom-0 {
   bottom: 0px;
 }
@@ -567,6 +575,9 @@ video {
 }
 .z-50 {
   z-index: 50;
+}
+.order-last {
+  order: 9999;
 }
 .col-span-3 {
   grid-column: span 3 / span 3;
@@ -603,17 +614,20 @@ video {
 .mt-12 {
   margin-top: 3rem;
 }
+.mb-8 {
+  margin-bottom: 2rem;
+}
 .mb-12 {
   margin-bottom: 3rem;
 }
-.mt-16 {
-  margin-top: 4rem;
+.mb-16 {
+  margin-bottom: 4rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
 }
-.mb-16 {
-  margin-bottom: 4rem;
+.mt-8 {
+  margin-top: 2rem;
 }
 .block {
   display: block;
@@ -654,6 +668,12 @@ video {
 .w-10 {
   width: 2.5rem;
 }
+.w-4\/5 {
+  width: 80%;
+}
+.w-60 {
+  width: 15rem;
+}
 .w-36 {
   width: 9rem;
 }
@@ -663,23 +683,26 @@ video {
 .w-auto {
   width: auto;
 }
+.w-80 {
+  width: 20rem;
+}
 .max-w-sm {
   max-width: 24rem;
 }
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
-.items-end {
-  align-items: flex-end;
+.flex-col {
+  flex-direction: column;
 }
 .items-center {
   align-items: center;
@@ -767,6 +790,10 @@ video {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -774,10 +801,6 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 .py-3 {
   padding-top: 0.75rem;
@@ -794,6 +817,10 @@ video {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -801,6 +828,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .font-medium {
   font-weight: 500;
@@ -913,7 +944,6 @@ a {
 
 .first-content h2 {
   font-family: 'Fredoka One', cursive;
-  font-size: 2.5rem;
   color: var(--color-titulo);
 }
 
@@ -925,7 +955,6 @@ a {
 
 .nosotros h2 {
   font-family: 'Fredoka One', cursive;
-  font-size: 2.5rem;
   color: var(--color-titulo);
 }
 
@@ -937,7 +966,6 @@ a {
 
 .seccion h2 {
   font-family: 'Fredoka One', cursive;
-  font-size: 2.5rem;
   color: var(--color-titulo);
 }
 
@@ -945,10 +973,6 @@ a {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
   color: var(--color-texto);
-}
-
-.inflables {
-  max-width: 500px;
 }
 
 .second-content {
@@ -979,7 +1003,6 @@ a {
 
 .last-section h2 {
   font-family: 'Fredoka One', cursive;
-  font-size: 2.5rem;
   color: var(--color-texto-azul);
   text-align: center;
 }
@@ -1112,21 +1135,96 @@ a {
 
 @media (min-width: 1024px) {
 
+  .lg\:absolute {
+    position: absolute;
+  }
+
+  .lg\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .lg\:order-first {
+    order: -9999;
+  }
+
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .lg\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
+  .lg\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .lg\:mt-8 {
     margin-top: 2rem;
   }
 
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .lg\:h-fit {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:w-fit {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:justify-start {
+    justify-content: flex-start;
   }
 
   .lg\:px-28 {
     padding-left: 7rem;
     padding-right: 7rem;
   }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
+
 
