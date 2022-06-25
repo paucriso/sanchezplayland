@@ -2,15 +2,11 @@
 @section('title', 'Nosotros')
     
 @section('content')
-<div class="top-divisor">
-
-</div>
-
 <div class="section bg-white nosotros">
   <div class="lg:px-28">
     <div class="grid lg:grid-cols-5 gap-8">
       <div class="col text-center lg:text-left lg:col-span-3 order-last lg:order-first px-4">
-        <h2 class="text-2xl lg:text-3xl text-center lg:text-left mb-4 lg:mb-0">Nosotros</h2>
+        <h2 class="text-2xl lg:text-3xl text-center lg:text-left mb-4 lg:mb-4">Nosotros</h2>
         <p>La empresa <strong>Sanchez Playland</strong> inició en el año 2018, por su fundador el Sr. Sanchez.  
             Todo inició con el gusto del toro mecánico, y así fue que se adquirió el primer juego 
             mecánico, después de ello vino el castillo inflable, después rápidamente la comunidad 

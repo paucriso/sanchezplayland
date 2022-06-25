@@ -1,5 +1,5 @@
 @section('revheader')
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
 <link rel="stylesheet" type="text/css" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="css/rs6.css">
@@ -100,9 +100,8 @@
           data-frame_1="sp:1000;"
           data-frame_999="o:0;st:w;"
           style="z-index:9;font-family:'Fredoka One';"
-        >Lorem ipsum dolor <br />
-sit amet consectetur <br />
-adipiscing elit. 
+        >Diversion para<br />
+todas las edades <br />
         </rs-layer><!--
 -->						</rs-slide>
       <rs-slide style="position: absolute;" data-key="rs-2" data-title="Slide 2" data-in="o:0;" data-out="a:false;">
@@ -135,9 +134,8 @@ adipiscing elit.
           data-frame_1="sp:1000;"
           data-frame_999="o:0;st:w;"
           style="z-index:9;font-family:'Fredoka One';"
-        >Lorem ipsum dolor <br />
-sit amet consectetur <br />
-adipiscing elit. 
+        >Hacemos tu fiesta<br> 
+        más divetida con tus<br> personajes favoritos
         </rs-layer><!--
 -->						</rs-slide>
       <rs-slide style="position: absolute;" data-key="rs-3" data-title="Slide 3" data-in="o:0;" data-out="a:false;">
@@ -168,7 +166,7 @@ adipiscing elit.
           data-dim="w:814px,814px,814px,314px;h:auto,auto,auto,45px;minh:0px,0px,0px,none;"
           data-frame_999="o:0;st:w;"
           style="z-index:11;font-family:'Fredoka One';"
-        >Lorem ipsum dolor sit amet consectetur. 
+        >Contamos con mucha variedad 
         </rs-layer><!--
 
         --><rs-layer

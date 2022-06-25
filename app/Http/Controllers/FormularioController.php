@@ -15,8 +15,9 @@ class FormularioController extends Controller
 
     public function store(Request $request)
     {
+        $mensaje_enviado = true;
         $correo = new ContactoMailable($request->all());
         Mail::to('paulot73@hotmail.com')->send($correo);
-        return 'Mensaje enviado';
+        return view('contacto', compact('mensaje_enviado'));
     }
 }

@@ -1,4 +1,4 @@
-<div class="header-2">
+<div class="header-2 relative">
   <div class="container mx-auto">
 
     <div class="grid grid-cols-1 lg:grid-cols-3">
@@ -28,5 +28,14 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="adorno-ninos-1 absolute w-60 bottom-0 left-2/4 -translate-x-2/4 md:hidden lg:block lg:left-1/4">
+    <img src="/images/adorno-ninos-1.png" alt="">
+  </div>
+  <div class="adorno-ninos-2 absolute right-1/4 bottom-0 w-60 hidden lg:block">
+    <img src="/images/adorno-ninos-2.png" alt="">
+  </div>
+  <div class="top-divisor">
+
   </div>
 </div>

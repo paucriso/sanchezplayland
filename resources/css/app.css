@@ -177,9 +177,9 @@ a {
 .top-divisor {
   background-image: url('/images/pasto-alone_02.png');
   height: 188px;
-  margin-top: -188px;
   background-repeat: no-repeat;
   background-position: center bottom;
+  z-index: 100;
 }
 
 .subtitulo {
@@ -206,3 +206,13 @@ a {
   background-color: var(--color-blue);
 }
 
+.inset-center {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.min-h-300 {
+  min-height: 300px;
+}

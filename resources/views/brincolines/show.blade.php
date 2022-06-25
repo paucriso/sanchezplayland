@@ -2,10 +2,6 @@
 @section('title')
     
 @section('content')
-<div class="top-divisor">
-
-</div>
-
 <div class="section bg-white nosotros">
   <div class="lg:px-28">
     <div class="grid lg:grid-cols-2 gap-x-8">
