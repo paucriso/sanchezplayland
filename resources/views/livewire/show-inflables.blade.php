@@ -17,7 +17,7 @@
                 
                 <h5 class="subtitulo mb-2 text-2xl font-bold tracking-tight text-gray-900">{{$brincolin->name}}</h5>
                 
-                <a href="{{route('brincolines.show', $brincolin->slug)}}" class="informacion-button inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white rounded-lg">
+                <a href="{{route('brincolines.show', $brincolin->slug)}}" class="informacion-button inline-flex items-center py-2 px-3 mb-8 text-sm font-medium text-center text-white rounded-lg">
                     Más información
                 </a>
             </div>
