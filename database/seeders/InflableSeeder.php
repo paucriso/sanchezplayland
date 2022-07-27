@@ -69,7 +69,7 @@ class InflableSeeder extends Seeder
             'description' => 'Castillo de 16 pies de largo por 13 pies de ancho por 12 pies de alto
                                 para uso exclusivo exterior o salones pequeños con capacidad para 
                                 15 niños. ',
-            'image' => '/images/brincolines/image-castillo.jpg',
+            'image' => '/images/brincolines/inflable_t.png',
             'category_id' => 4,
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),

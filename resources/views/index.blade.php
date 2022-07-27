@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title', 'Home Page')
+@section('title', 'Renta de toros mecánicos e inflables en NY y NJ - Renta de brincolines')
     
 
 @section('content')

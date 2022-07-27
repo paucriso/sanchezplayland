@@ -66,7 +66,7 @@
 @endsection
 
 <!-- START Slider 1 REVOLUTION SLIDER 6.5.24 --><p class="rs-p-wp-fix"></p>
-<rs-module-wrap id="rev_slider_1_1_wrapper" data-alias="slider-1" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;background-image:url(https://sanchezplayland.com/wp-content/uploads/2022/06/slider_bg.png);background-repeat:no-repeat;background-size:cover;background-position:center center;">
+<rs-module-wrap id="rev_slider_1_1_wrapper" data-alias="slider-1" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;background-image:url({{asset('images/slider_bg.png')}});background-repeat:no-repeat;background-size:cover;background-position:center center;">
   <rs-module id="rev_slider_1_1" style="" data-version="6.5.24">
     <rs-slides>
       <rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide 1" data-in="o:0;" data-out="a:false;">
@@ -152,7 +152,7 @@ todas las edades <br />
           data-frame_1="sp:1000;"
           data-frame_999="o:0;st:w;"
           style="z-index:10;"
-        ><img src="images/castillo_t.png" alt="" class="tp-rs-img" width="678" height="664" data-no-retina> 
+        ><img src="images/inflable_t.png" alt="" class="tp-rs-img" width="678" height="664" data-no-retina> 
         </rs-layer><!--
 
         --><rs-layer
